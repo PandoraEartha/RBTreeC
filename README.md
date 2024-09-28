@@ -5,37 +5,51 @@ As a head only library, just `#include "RBTree.h"` to use it.
 
 ### Functions 
 `RBTreeCreate`
+
 Create a empty Red black tree.
 
 `RBTreeInsert`
+
 Insert a new key and its value(both 8Bytes), if key is exist, so the new value will replace the old value.
 
 `RBTreeDelete`
+
 Remove a specific key and its value.
 
 `RBTreeSearch`
+
 Get a specific key's value. Return `false` if not found.
 
 `RBTreeClear`
+
 Remove all keys and their values and release their memory space, the node of the tree will become 0. The tree exists.
 
 `RBTreeDestroy`
+
 Remove all keys and their values and release their memory space, and the tree will not exist anymore.
 
 `RBTreeKeyCount`
+
 Return how may nodes the tree hold, equals to the number of different keys.
 
 `RBTreeGetMax`
+
 Get the maximum of the keys and its value;
 
 `RBTreeGetMin`
+
 Get the minimum of the keys and its value;
 
 ## Speed Performance
+
 Intel 13490F, 64GiB Memory
+
 Windows11 WSL2 Ubuntu 22.04
+
 gcc 11.4.0
+
 `-O2` optimize
+
 ### Insert 
 $37.13\%$  faster.
 
