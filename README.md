@@ -56,20 +56,20 @@ $`37.13\%`$ faster.
 For $1<<29=536870912$ nodes. `std::map` overload `[]` use $2036271$ milliseconds, `RBTreeInsert` use $1280288$  milliseconds. 
 
 ### Delete
-$41.91 \%$ faster. 
+$`41.91\%`$ faster. 
 
 Delete $1<<29=536870912$ nodes one by one, `std::map::erase()` use $2185486$ milliseconds, `RBTreeDelete` use $1269472$ milliseconds. 
 
 
 ### Clear
-$4.09 \%$ slower.
+$`4.09\%`$ slower.
 
 Clear a $1<<29=536870912$ nodes tree, `std::map::clear()` use $118658$ milliseconds, `RBTreeClear` use $123513$ milliseconds. 
 
 ![image_2024-09-23_14-11-44](https://github.com/user-attachments/assets/bd6a02e3-3697-4c6a-ad85-4852400a9066)
 
 ### Search
-$45.66 \%$ faster
+$`45.66\%`$ faster
 
 i use `-O1` optimize as `-O2` would ignore the search function, nither `RBTreeSearch` nor `std::find()`. 
 
