@@ -51,7 +51,7 @@ gcc 11.4.0
 `-O2` optimize
 
 ### Insert 
-$37.13%$  faster.
+$37.13\%$ faster.
 
 For $1<<29=536870912$ nodes. `std::map` overload `[]` use $2036271$ milliseconds, `RBTreeInsert` use $1280288$  milliseconds. 
 
