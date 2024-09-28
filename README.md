@@ -50,6 +50,7 @@ Delete $1<<29=536870912$ nodes one by one, `std::map::erase()` use $2185486$ mil
 $4.09\%$ slower.
 
 Clear a $1<<29=536870912$ nodes tree, `std::map::clear()` use $118658$ milliseconds, `RBTreeClear` use $123513$ milliseconds. 
+
 ![image_2024-09-23_14-11-44](https://github.com/user-attachments/assets/bd6a02e3-3697-4c6a-ad85-4852400a9066)
 
 ### Search
